@@ -1,46 +1,70 @@
 import React, { useState, useEffect } from 'react';
-import perfisData from './data/perfis.json'; // Importa seu JSON
+import perfisData from './data/perfis.json';
 import ProfileList from './components/ProfileList.jsx';
 import ProfileModal from './components/ProfileModal.jsx';
 import SearchBar from './components/SearchBar.jsx';
 
-// Apague a importação do './App.css' se ela ainda estiver aqui
-
 export default function App() {
+  // Estados para os dados
   const [profiles, setProfiles] = useState([]);
   const [filteredProfiles, setFilteredProfiles] = useState([]);
   const [selectedProfile, setSelectedProfile] = useState(null);
+  
+  // Estados para os filtros
   const [darkMode, setDarkMode] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedArea, setSelectedArea] = useState(''); // '' significa "Todas"
+  const [selectedCity, setSelectedCity] = useState(''); // '' significa "Todas"
 
-  // Carrega os dados do JSON
+  // Estados para as opções dos filtros
+  const [uniqueAreas, setUniqueAreas] = useState([]);
+  const [uniqueCities, setUniqueCities] = useState([]);
+
+  // Efeito 1: Carrega os dados e define as opções dos filtros (roda 1 vez)
   useEffect(() => {
     setProfiles(perfisData);
     setFilteredProfiles(perfisData);
+
+    // Extrai áreas e cidades únicas do JSON
+    const areas = [...new Set(perfisData.map(p => p.area).filter(Boolean))];
+    const cities = [...new Set(perfisData.map(p => p.localizacao).filter(Boolean))];
+    
+    setUniqueAreas(areas.sort());
+    setUniqueCities(cities.sort());
   }, []);
 
-  // Função de filtro (busca por nome, área ou skill)
-  const handleSearch = (term) => {
-    const lowerTerm = term.toLowerCase();
-    if (lowerTerm === "") {
-      setFilteredProfiles(profiles); // Se a busca for vazia, mostra todos
-      return;
+  // Efeito 2: Roda a lógica de filtro CADA VEZ que um filtro muda
+  useEffect(() => {
+    let tempProfiles = [...profiles];
+    const lowerTerm = searchTerm.toLowerCase();
+
+    // 1. Filtra por Texto
+    if (searchTerm) {
+      tempProfiles = tempProfiles.filter((profile) =>
+        profile.nome.toLowerCase().includes(lowerTerm) ||
+        profile.area.toLowerCase().includes(lowerTerm) ||
+        profile.habilidadesTecnicas.some(skill => skill.toLowerCase().includes(lowerTerm))
+      );
     }
-    
-    const filtered = profiles.filter((profile) =>
-      profile.nome.toLowerCase().includes(lowerTerm) ||
-      profile.area.toLowerCase().includes(lowerTerm) ||
-      profile.habilidadesTecnicas.some(skill => skill.toLowerCase().includes(lowerTerm))
-    );
-    setFilteredProfiles(filtered);
-  };
+
+    // 2. Filtra por Área
+    if (selectedArea) {
+      tempProfiles = tempProfiles.filter(profile => profile.area === selectedArea);
+    }
+
+    // 3. Filtra por Cidade
+    if (selectedCity) {
+      tempProfiles = tempProfiles.filter(profile => profile.localizacao === selectedCity);
+    }
+
+    // Atualiza a lista final de perfis
+    setFilteredProfiles(tempProfiles);
+
+  }, [searchTerm, selectedArea, selectedCity, profiles]); // Dependências do filtro
   
   // Funções do Modal
-  const openModal = (profile) => {
-    setSelectedProfile(profile);
-  };
-  const closeModal = () => {
-    setSelectedProfile(null);
-  };
+  const openModal = (profile) => setSelectedProfile(profile);
+  const closeModal = () => setSelectedProfile(null);
 
   // Aplica/Remove a classe 'dark' do <html>
   useEffect(() => {
@@ -52,25 +76,33 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
+    <div className="min-h-screen text-gray-900 dark:text-gray-100 transition-colors duration-200">
       
-      {/* --- HEADER --- */}
-      <header className="container mx-auto p-4 flex justify-between items-center">
-        <h1 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
-          Futuro.Work
-        </h1>
-        {/* Botão de Dark Mode */}
-        <button
-          onClick={() => setDarkMode(!darkMode)}
-          className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-xl"
-        >
-          {darkMode ? '☀️' : '🌙'}
-        </button>
+      <header className="sticky top-0 z-40 w-full bg-white/70 dark:bg-gray-900/70 backdrop-blur-md shadow-md">
+        <div className="container mx-auto p-4 flex justify-between items-center">
+          <h1 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
+            Futuro.Work
+          </h1>
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-xl"
+          >
+            {darkMode ? '☀️' : '🌙'}
+          </button>
+        </div>
       </header>
       
-      {/* --- MAIN CONTENT --- */}
       <main className="container mx-auto p-4">
-        <SearchBar onSearch={handleSearch} />
+        <SearchBar 
+          // Passa as funções que atualizam o estado
+          onSearchChange={setSearchTerm}
+          onAreaChange={setSelectedArea}
+          onCityChange={setSelectedCity}
+          
+          // Passa as listas de opções para os <select>
+          areas={uniqueAreas}
+          cities={uniqueCities}
+        />
         
         <ProfileList 
           profiles={filteredProfiles} 
@@ -78,7 +110,6 @@ export default function App() {
         />
       </main>
 
-      {/* --- MODAL --- */}
       {selectedProfile && (
         <ProfileModal 
           profile={selectedProfile} 

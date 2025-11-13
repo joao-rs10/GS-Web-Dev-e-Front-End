@@ -32,10 +32,10 @@ O projeto é uma aplicação puramente front-end que consome dados de um arquivo
 ## 🌐 Links do Projeto
 
 * **Link do Deploy (Vercel/Netlify):**
-    `[COLE SEU LINK DO DEPLOY AQUI]`
+    https://gs-web-dev-e-front-end.vercel.app/
 
 * **Link do Repositório GitHub:**
-    `[COLE SEU LINK DO GITHUB AQUI]`
+    https://github.com/joao-rs10/GS-Web-Dev-e-Front-End
 
 ---
 
@@ -43,6 +43,6 @@ O projeto é uma aplicação puramente front-end que consome dados de um arquivo
 
 | Nome Completo | RM |
 | :--- | :--- |
-| [NOME DO ALUNO 1] | [RM DO ALUNO 1] |
-| [NOME DO ALUNO 2] | [RM DO ALUNO 2] |
-| [NOME DO ALUNO 3] | [RM DO ALUNO 3] |
+| [João Vitor] | [563115] |
+| [Vicotr Henry] | [564222] |
+| [Erick Gabriel] | [565144] |

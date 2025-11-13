@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Silva",
+    "foto": "https://i.pravatar.cc/150?img=1",
+    "cargo": "Desenvolvedora Front-End Sênior",
+    "resumo": "Especialista em React, Tailwind e Acessibilidade Web. 5+ anos de experiência.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["React", "Tailwind CSS", "TypeScript", "Node.js"],
+    "softSkills": ["Comunicação", "Liderança", "Mentoria"],
+    "experiencias": [
+      {
+        "empresa": "Tech Solutions",
+        "cargo": "Dev Front-End Sênior",
+        "inicio": "2021-01",
+        "fim": "Presente",
+        "descricao": "Liderança técnica em projetos de e-commerce."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Certified Cloud Practitioner"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Acessibilidade Digital", "Micro-frontend"]
+  },
+  {
+    "id": 2,
+    "nome": "Bruno Costa",
+    "foto": "https://i.pravatar.cc/150?img=2",
+    "cargo": "UX/UI Designer Pleno",
+    "resumo": "Focado em criar interfaces intuitivas e centradas no usuário.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Adobe XD", "User Research", "Prototipagem"],
+    "softSkills": ["Empatia", "Colaboração", "Pensamento Crítico"],
+    "experiencias": [
+      {
+        "empresa": "DesignNow",
+        "cargo": "UX/UI Designer",
+        "inicio": "2022-06",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de fluxos de usuário e design systems."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUCPR",
+        "ano": 2021
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Design Inclusivo", "Gamificação"]
+  }
+]

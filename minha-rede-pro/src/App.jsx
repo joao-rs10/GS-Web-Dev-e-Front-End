@@ -81,7 +81,7 @@ export default function App() {
       <header className="sticky top-0 z-40 w-full bg-white/70 dark:bg-gray-900/70 backdrop-blur-md shadow-md">
         <div className="container mx-auto p-4 flex justify-between items-center">
           <h1 className="text-3xl font-bold text-blue-600 dark:text-blue-400">
-            Futuro.Work
+            TalentLink
           </h1>
           <button
             onClick={() => setDarkMode(!darkMode)}

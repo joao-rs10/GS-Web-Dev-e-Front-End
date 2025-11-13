@@ -60,5 +60,1351 @@
     "certificacoes": [],
     "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
     "areaInteresses": ["Design Inclusivo", "Gamificação"]
+  },
+  {
+    "id": 3,
+    "nome": "Carla Souza",
+    "foto": "https://i.pravatar.cc/150?img=3",
+    "cargo": "Engenheira de Dados Sênior",
+    "resumo": "Apaixonada por dados e machine learning. Experiência com pipelines de ETL.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "TI",
+    "habilidadesTecnicas": ["Python", "SQL", "Spark", "AWS", "Airflow"],
+    "softSkills": ["Resolução de Problemas", "Comunicação Técnica", "Curiosidade"],
+    "experiencias": [
+      {
+        "empresa": "DataCorp",
+        "cargo": "Engenheira de Dados",
+        "inicio": "2019-01",
+        "fim": "Presente",
+        "descricao": "Otimização de queries e criação de data lakes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em Ciência da Computação",
+        "instituicao": "UFRJ",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Certified Data Analytics"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["IA Ética", "MLOps"]
+  },
+  {
+    "id": 4,
+    "nome": "Danilo Martins",
+    "foto": "https://i.pravatar.cc/150?img=4",
+    "cargo": "Enfermeiro Chefe",
+    "resumo": "Gestão de equipes de enfermagem em ambiente hospitalar de alta complexidade.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Gestão de Equipes", "UTI", "Controle de Infecção", "Sistemas de Prontuário"],
+    "softSkills": ["Liderança", "Empatia", "Resiliência", "Tomada de Decisão"],
+    "experiencias": [
+      {
+        "empresa": "Hospital Central",
+        "cargo": "Enfermeiro Chefe",
+        "inicio": "2015-06",
+        "fim": "Presente",
+        "descricao": "Coordenação do setor de Terapia Intensiva."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós-graduação em Gestão Hospitalar",
+        "instituicao": "UFMG",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Tecnologia na Saúde", "Saúde Pública"]
+  },
+  {
+    "id": 5,
+    "nome": "Elisa Fernandes",
+    "foto": "https://i.pravatar.cc/150?img=5",
+    "cargo": "Designer Gráfico Sênior",
+    "resumo": "Especialista em branding e identidade visual. Foco em design minimalista.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["Illustrator", "Photoshop", "InDesign", "Branding"],
+    "softSkills": ["Criatividade", "Atenção aos Detalhes", "Comunicação Visual"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Gráfico",
+        "instituicao": "Belas Artes",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Tipografia", "Design Sustentável"]
+  },
+  {
+    "id": 6,
+    "nome": "Felipe Almeida",
+    "foto": "https://i.pravatar.cc/150?img=6",
+    "cargo": "Desenvolvedor Back-End Pleno",
+    "resumo": "Construindo APIs robustas e escaláveis com Node.js e Go.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": ["Node.js", "Go", "Docker", "Kubernetes", "PostgreSQL"],
+    "softSkills": ["Colaboração", "Foco", "Aprendizado Contínuo"],
+    "experiencias": [
+      {
+        "empresa": "Sync Sistemas",
+        "cargo": "Dev Back-End",
+        "inicio": "2020-03",
+        "fim": "Presente",
+        "descricao": "Manutenção de microsserviços e APIs REST."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UTFPR",
+        "ano": 2021
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Microsserviços", "Arquitetura de Software"]
+  },
+  {
+    "id": 7,
+    "nome": "Gabriela Lima",
+    "foto": "https://i.pravatar.cc/150?img=7",
+    "cargo": "Especialista em Aquisição de Talentos",
+    "resumo": "Tech Recruiter focada em encontrar os melhores talentos de tecnologia.",
+    "localizacao": "São Paulo/SP",
+    "area": "RH",
+    "habilidadesTecnicas": ["Recrutamento Técnico", "Sourcing", "Entrevista por Competências", "LinkedIn Recruiter"],
+    "softSkills": ["Comunicação", "Negociação", "Organização"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "Mackenzie",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["People Analytics", "Diversidade e Inclusão"]
+  },
+  {
+    "id": 8,
+    "nome": "Heitor Borges",
+    "foto": "https://i.pravatar.cc/150?img=8",
+    "cargo": "Engenheiro DevOps",
+    "resumo": "Automatizando infraestrutura e pipelines de CI/CD.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "TI",
+    "habilidadesTecnicas": ["Terraform", "Ansible", "Jenkins", "AWS", "Monitoramento"],
+    "softSkills": ["Colaboração", "Visão Sistêmica", "Proatividade"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UFRGS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Certified DevOps Engineer"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Infraestrutura como Código", "Segurança de Redes"]
+  },
+  {
+    "id": 9,
+    "nome": "Isis Oliveira",
+    "foto": "https://i.pravatar.cc/150?img=9",
+    "cargo": "Fisioterapeuta Esportiva",
+    "resumo": "Reabilitação e prevenção de lesões em atletas de alta performance.",
+    "localizacao": "São Paulo/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Reabilitação Ortopédica", "Terapia Manual", "Prevenção de Lesões"],
+    "softSkills": ["Empatia", "Motivação", "Comunicação Clara"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Fisioterapia",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Biomecânica", "Performance Esportiva"]
+  },
+  {
+    "id": 10,
+    "nome": "João Pereira",
+    "foto": "https://i.pravatar.cc/150?img=10",
+    "cargo": "Analista de SEO",
+    "resumo": "Especialista em SEO técnico e marketing de conteúdo.",
+    "localizacao": "Recife/PE",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["SEO On-Page", "Google Analytics", "Semrush", "Marketing de Conteúdo"],
+    "softSkills": ["Analítico", "Curioso", "Focado em Resultados"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Comunicação Social",
+        "instituicao": "UFPE",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Growth Hacking", "Inteligência Artificial em Marketing"]
+  },
+  {
+    "id": 11,
+    "nome": "Larissa Mendes",
+    "foto": "https://i.pravatar.cc/150?img=11",
+    "cargo": "Product Manager (PM)",
+    "resumo": "Liderando o desenvolvimento de produtos digitais com metodologias ágeis.",
+    "localizacao": "São Paulo/SP",
+    "area": "Produto",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "Roadmap de Produto", "Jira", "SQL"],
+    "softSkills": ["Liderança", "Negociação", "Visão Estratégica"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Administração de Empresas",
+        "instituicao": "FGV",
+        "ano": 2015
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["CSPO - Certified Scrum Product Owner"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Descoberta de Produto", "UX Strategy"]
+  },
+  {
+    "id": 12,
+    "nome": "Marcos Vinicius",
+    "foto": "https://i.pravatar.cc/150?img=12",
+    "cargo": "Desenvolvedor Mobile (Flutter)",
+    "resumo": "Desenvolvedor focado em criar experiências fluidas para iOS e Android com Flutter.",
+    "localizacao": "Florianópolis/SC",
+    "area": "TI",
+    "habilidadesTecnicas": ["Flutter", "Dart", "Firebase", "GetX", "APIs REST"],
+    "softSkills": ["Colaboração", "Adaptabilidade", "Foco no Usuário"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2022
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Performance Mobile", "Design de Interfaces"]
+  },
+  {
+    "id": 13,
+    "nome": "Natália Rocha",
+    "foto": "https://i.pravatar.cc/150?img=13",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Gestão de campanhas de performance (Google Ads e Meta Ads).",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Google Ads", "Meta Ads", "Google Analytics", "Mídia Paga"],
+    "softSkills": ["Analítico", "Organização", "Foco em ROI"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Publicidade e Propaganda",
+        "instituicao": "ESPM",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google Ads Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Automação de Marketing", "CRO"]
+  },
+  {
+    "id": 14,
+    "nome": "Otávio Guedes",
+    "foto": "https://i.pravatar.cc/150?img=14",
+    "cargo": "Dentista (Odontopediatra)",
+    "resumo": "Especialista em saúde bucal infantil e atendimento humanizado.",
+    "localizacao": "Curitiba/PR",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Odontopediatria", "Prevenção", "Ortodontia Preventiva"],
+    "softSkills": ["Paciência", "Comunicação com Crianças", "Empatia"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Especialização em Odontopediatria",
+        "instituicao": "UFPR",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }],
+    "areaInteresses": ["Saúde Coletiva", "Odontologia Digital"]
+  },
+  {
+    "id": 15,
+    "nome": "Paula Costa",
+    "foto": "https://i.pravatar.cc/150?img=15",
+    "cargo": "Analista de BI",
+    "resumo": "Transformando dados em dashboards interativos e insights de negócio.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "TI",
+    "habilidadesTecnicas": ["Power BI", "Tableau", "SQL Server", "ETL"],
+    "softSkills": ["Visão de Negócio", "Comunicação", "Capacidade Analítica"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Engenharia de Produção",
+        "instituicao": "PUC-Rio",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Microsoft Certified: Power BI Data Analyst"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Data Storytelling", "Visualização de Dados"]
+  },
+  {
+    "id": 16,
+    "nome": "Pedro Henrique",
+    "foto": "https://i.pravatar.cc/150?img=16",
+    "cargo": "Desenvolvedor Mobile (iOS Nativo)",
+    "resumo": "Criando apps iOS com Swift e SwiftUI.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["Swift", "SwiftUI", "UIKit", "Xcode", "CoreData"],
+    "softSkills": ["Atenção aos Detalhes", "Foco no Usuário", "Colaboração"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Realidade Aumentada (ARKit)", "Combine"]
+  },
+  {
+    "id": 17,
+    "nome": "Rafaela Nunes",
+    "foto": "https://i.pravatar.cc/150?img=17",
+    "cargo": "Scrum Master",
+    "resumo": "Facilitadora de cerimônias ágeis e remoção de impedimentos.",
+    "localizacao": "São Paulo/SP",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "Agile Coaching", "Jira", "Confluence"],
+    "softSkills": ["Comunicação", "Facilitação", "Resolução de Conflitos"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["PSM I - Professional Scrum Master"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Métricas Ágeis", "Cultura Organizacional"]
+  },
+  {
+    "id": 18,
+    "nome": "Ricardo Alves",
+    "foto": "https://i.pravatar.cc/150?img=18",
+    "cargo": "Arquiteto de Soluções Cloud",
+    "resumo": "Desenhando arquiteturas escaláveis e resilientes na nuvem (AWS e Azure).",
+    "localizacao": "Brasília/DF",
+    "area": "TI",
+    "habilidadesTecnicas": ["AWS", "Azure", "Arquitetura de Microsserviços", "TOGAF"],
+    "softSkills": ["Visão Estratégica", "Comunicação Técnica", "Negociação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UnB",
+        "ano": 2012
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Certified Solutions Architect - Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["FinOps", "Computação Serverless"]
+  },
+  {
+    "id": 19,
+    "nome": "Sandra Pereira",
+    "foto": "https://i.pravatar.cc/150?img=19",
+    "cargo": "Advogada (Direito Digital)",
+    "resumo": "Especialista em LGPD, proteção de dados e contratos de tecnologia.",
+    "localizacao": "São Paulo/SP",
+    "area": "Jurídico",
+    "habilidadesTecnicas": ["LGPD", "Direito Digital", "Contratos de TI", "Propriedade Intelectual"],
+    "softSkills": ["Analítico", "Negociação", "Comunicação Escrita"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Mestrado em Direito Digital",
+        "instituicao": "Mackenzie",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["DPO Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Ética em IA", "Privacidade de Dados"]
+  },
+  {
+    "id": 20,
+    "nome": "Thiago Gonçalves",
+    "foto": "https://i.pravatar.cc/150?img=20",
+    "cargo": "Desenvolvedor de Jogos",
+    "resumo": "Desenvolvedor de jogos com experiência em Unity e C#.",
+    "localizacao": "Recife/PE",
+    "area": "Jogos",
+    "habilidadesTecnicas": ["Unity", "C#", "Blender", "Game Design"],
+    "softSkills": ["Criatividade", "Resolução de Problemas", "Trabalho em Equipe"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Design de Jogos",
+        "instituicao": "Unicap",
+        "ano": 2021
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Realidade Virtual", "Jogos Independentes"]
+  },
+  {
+    "id": 21,
+    "nome": "Vanessa Campos",
+    "foto": "https://i.pravatar.cc/150?img=21",
+    "cargo": "Analista de Qualidade (QA)",
+    "resumo": "Garantindo a qualidade de software através de testes manuais e automatizados.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": ["Selenium", "Cypress", "Jira", "Testes de Regressão", "Testes de API"],
+    "softSkills": ["Atenção aos Detalhes", "Pensamento Crítico", "Comunicação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em ADS",
+        "instituicao": "Positivo",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["CTFL - Certified Tester Foundation Level"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Automação de Testes", "Testes de Performance"]
+  },
+  {
+    "id": 22,
+    "nome": "William Dias",
+    "foto": "https://i.pravatar.cc/150?img=22",
+    "cargo": "Engenheiro de Machine Learning",
+    "resumo": "Implementando modelos de IA para resolver problemas de negócio.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "MLOps"],
+    "softSkills": ["Analítico", "Pesquisa", "Comunicação Técnica"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Doutorado em IA",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Processamento de Linguagem Natural (PLN)", "Visão Computacional"]
+  },
+  {
+    "id": 23,
+    "nome": "Yasmin Ferreira",
+    "foto": "https://i.pravatar.cc/150?img=23",
+    "cargo": "Redatora (Copywriter)",
+    "resumo": "Especialista em marketing de conteúdo e redação persuasiva (copywriting).",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Copywriting", "SEO", "Marketing de Conteúdo", "Inbound Marketing"],
+    "softSkills": ["Criatividade", "Comunicação Escrita", "Persuasão"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Jornalismo",
+        "instituicao": "UFMG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Storytelling", "Branding"]
+  },
+  {
+    "id": 24,
+    "nome": "Zeca Martins",
+    "foto": "https://i.pravatar.cc/150?img=24",
+    "cargo": "Fotógrafo Corporativo",
+    "resumo": "Fotografia de eventos, retratos executivos e branding visual.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": ["Fotografia", "Photoshop", "Lightroom", "Edição de Vídeo"],
+    "softSkills": ["Comunicação Visual", "Atenção aos Detalhes", "Criatividade"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Técnico em Fotografia",
+        "instituicao": "Senac",
+        "ano": 2015
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Básico" }],
+    "areaInteresses": ["Fotografia de Produto", "Vídeo Institucional"]
+  },
+  {
+    "id": 25,
+    "nome": "André Gomes",
+    "foto": "https://i.pravatar.cc/150?img=25",
+    "cargo": "Desenvolvedor Python",
+    "resumo": "Foco em desenvolvimento web com Django e Flask.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["Python", "Django", "Flask", "PostgreSQL"],
+    "softSkills": ["Lógica", "Resolução de Problemas", "Colaboração"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2022
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Web Scraping", "APIs REST"]
+  },
+  {
+    "id": 26,
+    "nome": "Beatriz Novaes",
+    "foto": "https://i.pravatar.cc/150?img=26",
+    "cargo": "Gerente de Projetos",
+    "resumo": "Gerenciamento de projetos de software utilizando PMBOK e metodologias ágeis.",
+    "localizacao": "Brasília/DF",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["PMBOK", "Scrum", "Gestão de Riscos", "MS Project"],
+    "softSkills": ["Liderança", "Organização", "Comunicação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "MBA em Gestão de Projetos",
+        "instituicao": "FGV",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["PMP - Project Management Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Gestão Ágil", "Planejamento Estratégico"]
+  },
+  {
+    "id": 27,
+    "nome": "Caio Ribeiro",
+    "foto": "https://i.pravatar.cc/150?img=27",
+    "cargo": "Analista de Segurança da Informação",
+    "resumo": "Especialista em Pentest e Análise de Vulnerabilidades.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["Pentest", "Nmap", "Metasploit", "ISO 27001", "LGPD"],
+    "softSkills": ["Analítico", "Ética", "Atenção aos Detalhes"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Segurança da Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["OSCP - Offensive Security Certified Professional"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Red Team", "Forence Digital"]
+  },
+  {
+    "id": 28,
+    "nome": "Diana Moreira",
+    "foto": "https://i.pravatar.cc/150?img=28",
+    "cargo": "UX Researcher",
+    "resumo": "Conduzindo pesquisas qualitativas e quantitativas para informar o design.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["Pesquisa Qualitativa", "Testes de Usabilidade", "Jornada do Usuário", "Personas"],
+    "softSkills": ["Empatia", "Escuta Ativa", "Curiosidade"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Ciências Sociais",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Design Thinking", "Antropologia Digital"]
+  },
+  {
+    "id": 29,
+    "nome": "Eduardo Matos",
+    "foto": "https://i.pravatar.cc/150?img=29",
+    "cargo": "Desenvolvedor Mobile (Android Nativo)",
+    "resumo": "Desenvolvendo aplicativos Android com Kotlin e Jetpack Compose.",
+    "localizacao": "Recife/PE",
+    "area": "TI",
+    "habilidadesTecnicas": ["Kotlin", "Jetpack Compose", "Android SDK", "Java"],
+    "softSkills": ["Colaboração", "Resolução de Problemas", "Adaptabilidade"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFPE",
+        "ano": 2021
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Arquitetura MVVM", "Performance de Apps"]
+  },
+  {
+    "id": 30,
+    "nome": "Fernanda Bastos",
+    "foto": "https://i.pravatar.cc/150?img=30",
+    "cargo": "Nutricionista Clínica",
+    "resumo": "Foco em reeducação alimentar e nutrição comportamental.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Nutrição Clínica", "Nutrição Comportamental", "Avaliação Antropométrica"],
+    "softSkills": ["Empatia", "Escuta Ativa", "Comunicação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Nutrição",
+        "instituicao": "UFRGS",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Mindful Eating", "Saúde da Mulher"]
+  },
+  {
+    "id": 31,
+    "nome": "Gustavo Farias",
+    "foto": "https://i.pravatar.cc/150?img=31",
+    "cargo": "Analista de Suporte de TI",
+    "resumo": "Suporte técnico a usuários e manutenção de infraestrutura de TI.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["Windows Server", "Active Directory", "Redes TCP/IP", "Suporte N2"],
+    "softSkills": ["Paciência", "Comunicação Clara", "Resolução de Problemas"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "Senac",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["ITIL Foundation"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Segurança da Informação", "Cloud Computing"]
+  },
+  {
+    "id": 32,
+    "nome": "Helena Viana",
+    "foto": "https://i.pravatar.cc/150?img=32",
+    "cargo": "Analista Financeiro",
+    "resumo": "Planejamento financeiro (FP&A), budgeting e forecasting.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Financeiro",
+    "habilidadesTecnicas": ["Excel Avançado", "Modelagem Financeira", "Contas a Pagar/Receber", "VBA"],
+    "softSkills": ["Analítico", "Organização", "Atenção aos Detalhes"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Ciências Contábeis",
+        "instituicao": "UFMG",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Mercado de Capitais", "Finanças Corporativas"]
+  },
+  {
+    "id": 33,
+    "nome": "Igor Nascimento",
+    "foto": "https://i.pravatar.cc/150?img=33",
+    "cargo": "Desenvolvedor Front-End Júnior",
+    "resumo": "Iniciando carreira com foco em React e Vue.js.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["HTML", "CSS", "JavaScript", "React", "Vue.js"],
+    "softSkills": ["Aprendizado Rápido", "Proatividade", "Colaboração"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "FIAP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Design Systems", "Web Performance"]
+  },
+  {
+    "id": 34,
+    "nome": "Juliana Teixeira",
+    "foto": "https://i.pravatar.cc/150?img=34",
+    "cargo": "Social Media Manager",
+    "resumo": "Estratégia, planejamento de conteúdo e gestão de comunidade.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Instagram", "TikTok", "Facebook Ads", "Mlabs", "Copywriting"],
+    "softSkills": ["Criatividade", "Organização", "Comunicação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Comunicação Social",
+        "instituicao": "UFRJ",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Marketing de Influência", "Branding"]
+  },
+  {
+    "id": 35,
+    "nome": "Kevin Santos",
+    "foto": "https://i.pravatar.cc/150?img=35",
+    "cargo": "Desenvolvedor Full-Stack",
+    "resumo": "Desenvolvedor Full-Stack com foco no ecossistema JavaScript (React e Node.js).",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": ["React", "Node.js", "TypeScript", "Next.js", "MongoDB"],
+    "softSkills": ["Versatilidade", "Resolução de Problemas", "Autogerenciamento"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UTFPR",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Arquitetura de Software", "Desenvolvimento Serverless"]
+  },
+  {
+    "id": 36,
+    "nome": "Luana Batista",
+    "foto": "https://i.pravatar.cc/150?img=36",
+    "cargo": "Especialista em RH (D&I)",
+    "resumo": "Foco na criação de programas de Diversidade e Inclusão.",
+    "localizacao": "São Paulo/SP",
+    "area": "RH",
+    "habilidadesTecnicas": ["Diversidade e Inclusão", "Pesquisa de Clima", "Treinamento e Desenvolvimento"],
+    "softSkills": ["Empatia", "Comunicação Interpessoal", "Sensibilidade Cultural"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "USP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["ESG", "Desenvolvimento de Liderança Inclusiva"]
+  },
+  {
+    "id": 37,
+    "nome": "Miguel Andrade",
+    "foto": "https://i.pravatar.cc/150?img=37",
+    "cargo": "Engenheiro de Software Embarcado",
+    "resumo": "Desenvolvimento de firmware para dispositivos IoT.",
+    "localizacao": "Florianópolis/SC",
+    "area": "TI",
+    "habilidadesTecnicas": ["C", "C++", "RTOS", "Linux Embarcado", "IoT"],
+    "softSkills": ["Lógica", "Atenção aos Detalhes", "Foco"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Engenharia Eletrônica",
+        "instituicao": "UFSC",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Sistemas de Tempo Real", "Hardware"]
+  },
+  {
+    "id": 38,
+    "nome": "Nicole Barbosa",
+    "foto": "https://i.pravatar.cc/150?img=38",
+    "cargo": "UX Writer / Content Designer",
+    "resumo": "Desenhando conversas e microinterações para produtos digitais.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["UX Writing", "Content Design", "Microcopy", "Testes A/B", "Figma"],
+    "softSkills": ["Empatia", "Clareza na Comunicação", "Colaboração"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Letras",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Voz e Tom", "Localização"]
+  },
+  {
+    "id": 39,
+    "nome": "Oscar Schmidt",
+    "foto": "https://i.pravatar.cc/150?img=39",
+    "cargo": "Analista de Logística",
+    "resumo": "Otimização de cadeia de suprimentos e gestão de estoque.",
+    "localizacao": "Santos/SP",
+    "area": "Logística",
+    "habilidadesTecnicas": ["Gestão de Estoque", "SAP", "Excel Avançado", "TMS"],
+    "softSkills": ["Organização", "Planejamento", "Visão Analítica"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Logística",
+        "instituicao": "Fatec",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Supply Chain", "Comércio Exterior"]
+  },
+  {
+    "id": 40,
+    "nome": "Patrícia Lemos",
+    "foto": "https://i.pravatar.cc/150?img=40",
+    "cargo": "Médica (Clínica Geral)",
+    "resumo": "Atendimento em atenção primária à saúde e medicina de família.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["Medicina de Família", "Atenção Primária", "Diagnóstico"],
+    "softSkills": ["Escuta Ativa", "Empatia", "Comunicação Clara"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Medicina",
+        "instituicao": "UFRGS",
+        "ano": 2015
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Saúde Pública", "Telemedicina"]
+  },
+  {
+    "id": 41,
+    "nome": "Quintino Aires",
+    "foto": "https://i.pravatar.cc/150?img=41",
+    "cargo": "Psicólogo Clínico",
+    "resumo": "Especialista em Terapia Cognitivo-Comportamental (TCC).",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Saúde",
+    "habilidadesTecnicas": ["TCC", "Psicoterapia", "Avaliação Psicológica"],
+    "softSkills": ["Escuta Ativa", "Empatia", "Analítico"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Mestrado em Psicologia Clínica",
+        "instituicao": "UFMG",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Saúde Mental", "Neurociência"]
+  },
+  {
+    "id": 42,
+    "nome": "Roberto Dias",
+    "foto": "https://i.pravatar.cc/150?img=42",
+    "cargo": "Desenvolvedor Java Sênior",
+    "resumo": "Arquiteto de software com foco em Java, Spring Boot e Microsserviços.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["Java", "Spring Boot", "Kafka", "Microsserviços", "Oracle DB"],
+    "softSkills": ["Liderança Técnica", "Mentoria", "Arquitetura de Software"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "Unicamp",
+        "ano": 2013
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Oracle Certified Professional, Java SE 11"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Computação Reativa", "Sistemas Distribuídos"]
+  },
+  {
+    "id": 43,
+    "nome": "Simone Braga",
+    "foto": "https://i.pravatar.cc/150?img=43",
+    "cargo": "Designer de Produto (Product Designer)",
+    "resumo": "Foco em todo o ciclo de vida do produto, do research ao handoff.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Design System", "UX Research", "UI Design", "Prototipagem"],
+    "softSkills": ["Visão de Produto", "Colaboração", "Comunicação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Design de Produto",
+        "instituicao": "IED São Paulo",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Design Ops", "Acessibilidade"]
+  },
+  {
+    "id": 44,
+    "nome": "Tomás Medeiros",
+    "foto": "https://i.pravatar.cc/150?img=44",
+    "cargo": "Cientista de Dados",
+    "resumo": "Modelagem estatística e machine learning para previsão de churn.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "TI",
+    "habilidadesTecnicas": ["Python", "R", "SQL", "Scikit-learn", "Tableau"],
+    "softSkills": ["Curiosidade", "Pensamento Crítico", "Data Storytelling"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Estatística",
+        "instituicao": "UERJ",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Modelagem Preditiva", "Deep Learning"]
+  },
+  {
+    "id": 45,
+    "nome": "Ursula Barros",
+    "foto": "https://i.pravatar.cc/150?img=45",
+    "cargo": "Especialista em Customer Success (CS)",
+    "resumo": "Garantindo o sucesso, retenção e adoção do produto pelos clientes.",
+    "localizacao": "São Paulo/SP",
+    "area": "CS",
+    "habilidadesTecnicas": ["Onboarding", "Gestão de Contas", "Salesforce", "Retenção"],
+    "softSkills": ["Empatia", "Comunicação", "Resolução de Problemas"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Relações Internacionais",
+        "instituicao": "PUC-SP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Experiência do Cliente (CX)", "Upsell"]
+  },
+  {
+    "id": 46,
+    "nome": "Victor Hugo",
+    "foto": "https://i.pravatar.cc/150?img=46",
+    "cargo": "Desenvolvedor C# .NET Sênior",
+    "resumo": "Especialista no ecossistema .NET para aplicações web e microsserviços.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": ["C#", ".NET Core", "Azure", "SQL Server", "Microsserviços"],
+    "softSkills": ["Mentoria", "Resolução de Problemas", "Foco em Performance"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "PUCPR",
+        "ano": 2015
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Microsoft Certified: Azure Developer Associate"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Arquitetura Limpa", "DevOps"]
+  },
+  {
+    "id": 47,
+    "nome": "Wagner Silva",
+    "foto": "https://i.pravatar.cc/150?img=47",
+    "cargo": "Analista de Negócios (BA)",
+    "resumo": "Fazendo a ponte entre as áreas de negócio e a equipe de desenvolvimento.",
+    "localizacao": "São Paulo/SP",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Levantamento de Requisitos", "User Stories", "BPMN", "SQL", "Scrum"],
+    "softSkills": ["Comunicação", "Negociação", "Visão Analítica"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "Mackenzie",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Metodologias Ágeis", "Transformação Digital"]
+  },
+  {
+    "id": 48,
+    "nome": "Xuxa Meneghel",
+    "foto": "https://i.pravatar.cc/150?img=48",
+    "cargo": "Apresentadora e Influenciadora",
+    "resumo": "Comunicação e entretenimento com foco no público infantil e familiar.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Mídia",
+    "habilidadesTecnicas": ["Comunicação", "Mídias Sociais", "Produção de Conteúdo"],
+    "softSkills": ["Carisma", "Empatia", "Criatividade"],
+    "experiencias": [],
+    "formacao": [],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }],
+    "areaInteresses": ["Direitos dos Animais", "Veganismo"]
+  },
+  {
+    "id": 49,
+    "nome": "Yuri Santos",
+    "foto": "https://i.pravatar.cc/150?img=49",
+    "cargo": "Desenvolvedor PHP Sênior",
+    "resumo": "Foco em Laravel e Symfony para aplicações web complexas.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "TI",
+    "habilidadesTecnicas": ["PHP", "Laravel", "Symfony", "MySQL", "Docker"],
+    "softSkills": ["Liderança Técnica", "Mentoria", "Pragmatismo"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUCRS",
+        "ano": 2014
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Domain-Driven Design (DDD)", "Testes Automatizados"]
+  },
+  {
+    "id": 50,
+    "nome": "Zara Pereira",
+    "foto": "https://i.pravatar.cc/150?img=50",
+    "cargo": "Gestora de Tráfego",
+    "resumo": "Especialista em campanhas pagas (Google, Meta, LinkedIn Ads).",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Google Ads", "Meta Ads", "LinkedIn Ads", "Google Analytics", "CRO"],
+    "softSkills": ["Foco em Resultados", "Analítico", "Organização"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Marketing",
+        "instituicao": "Anhembi Morumbi",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Google Ads Certified"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Mídia Paga", "Marketing de Performance"]
+  },
+  {
+    "id": 51,
+    "nome": "Arthur Bernardes",
+    "foto": "https://i.pravatar.cc/150?img=51",
+    "cargo": "Desenvolvedor Rust",
+    "resumo": "Focado em performance e segurança com Rust para sistemas e web.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "TI",
+    "habilidadesTecnicas": ["Rust", "WebAssembly (WASM)", "Tokio", "C++"],
+    "softSkills": ["Foco", "Resolução de Problemas", "Lógica"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2021
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Sistemas de Baixo Nível", "Blockchain"]
+  },
+  {
+    "id": 52,
+    "nome": "Bárbara Melo",
+    "foto": "https://i.pravatar.cc/150?img=52",
+    "cargo": "Ilustradora Digital",
+    "resumo": "Criação de ilustrações para marcas, editorial e produtos digitais.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": ["Procreate", "Illustrator", "Photoshop", "Ilustração Vetorial"],
+    "softSkills": ["Criatividade", "Originalidade", "Comunicação Visual"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Belas Artes",
+        "instituicao": "FAP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Animação 2D", "Design de Personagens"]
+  },
+  {
+    "id": 53,
+    "nome": "César Augusto",
+    "foto": "https://i.pravatar.cc/150?img=53",
+    "cargo": "Advogado Tributarista",
+    "resumo": "Planejamento tributário e contencioso fiscal.",
+    "localizacao": "São Paulo/SP",
+    "area": "Jurídico",
+    "habilidadesTecnicas": ["Direito Tributário", "Planejamento Fiscal", "Contencioso"],
+    "softSkills": ["Analítico", "Atenção aos Detalhes", "Negociação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Direito",
+        "instituicao": "PUC-SP",
+        "ano": 2010
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Tax Tech", "Reforma Tributária"]
+  },
+  {
+    "id": 54,
+    "nome": "Débora Santos",
+    "foto": "https://i.pravatar.cc/150?img=54",
+    "cargo": "Analista de Conteúdo",
+    "resumo": "Planejamento e produção de conteúdo para blog e redes sociais.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": ["Marketing de Conteúdo", "SEO", "Copywriting", "Wordpress"],
+    "softSkills": ["Comunicação Escrita", "Organização", "Criatividade"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Jornalismo",
+        "instituicao": "UFRJ",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Inbound Marketing", "Storytelling"]
+  },
+  {
+    "id": 55,
+    "nome": "Elias Costa",
+    "foto": "https://i.pravatar.cc/150?img=55",
+    "cargo": "Engenheiro de Automação",
+    "resumo": "Desenvolvimento de sistemas de automação industrial e robótica.",
+    "localizacao": "Joinville/SC",
+    "area": "Engenharia",
+    "habilidadesTecnicas": ["CLP", "Rockwell", "Siemens", "Robótica Industrial", "Indústria 4.0"],
+    "softSkills": ["Resolução de Problemas", "Raciocínio Lógico", "Gestão de Projetos"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Engenharia de Controle e Automação",
+        "instituicao": "UFSC",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["IIoT (IoT Industrial)", "Manufatura Aditiva"]
+  },
+  {
+    "id": 56,
+    "nome": "Fátima Bernardes",
+    "foto": "https://i.pravatar.cc/150?img=56",
+    "cargo": "Jornalista e Apresentadora",
+    "resumo": "Comunicação e entretenimento, com foco em atualidades e comportamento.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Mídia",
+    "habilidadesTecnicas": ["Comunicação", "Entrevista", "Apresentação Ao Vivo"],
+    "softSkills": ["Carisma", "Empatia", "Adaptabilidade"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Jornalismo",
+        "instituicao": "UFRJ",
+        "ano": 1987
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Português", "nivel": "Nativo" }],
+    "areaInteresses": ["Comportamento", "Cultura"]
+  },
+  {
+    "id": 57,
+    "nome": "Gabriel Monteiro",
+    "foto": "https://i.pravatar.cc/150?img=57",
+    "cargo": "Desenvolvedor Front-End Júnior",
+    "resumo": "Iniciando no desenvolvimento web com foco em Vue.js e Nuxt.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["Vue.js", "Nuxt.js", "JavaScript", "HTML", "CSS"],
+    "softSkills": ["Aprendizado Rápido", "Colaboração", "Foco"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Tecnologia em Sistemas para Internet",
+        "instituicao": "Fatec",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Ecossistema Vue", "Web Performance"]
+  },
+  {
+    "id": 58,
+    "nome": "Heloísa Ramos",
+    "foto": "https://i.pravatar.cc/150?img=58",
+    "cargo": "Arquiteta de Software",
+    "resumo": "Definição de arquiteturas de software e padrões de design.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": ["Arquitetura de Software", "Domain-Driven Design (DDD)", "Microsserviços", "Java", "C#"],
+    "softSkills": ["Visão Sistêmica", "Liderança Técnica", "Comunicação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2010
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Fluente" }],
+    "areaInteresses": ["Event-Driven Architecture", "Cloud Native"]
+  },
+  {
+    "id": 59,
+    "nome": "Ícaro Almeida",
+    "foto": "https://i.pravatar.cc/150?img=59",
+    "cargo": "Piloto de Drone (FPV)",
+    "resumo": "Captura de imagens aéreas cinematográficas com drones FPV.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": ["Pilotagem FPV", "Edição de Vídeo", "Adobe Premiere", "DaVinci Resolve"],
+    "softSkills": ["Criatividade", "Coordenação Motora", "Timing"],
+    "experiencias": [],
+    "formacao": [],
+    "projetos": [],
+    "certificacoes": ["ANAC - Piloto de Drone"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Intermediário" }],
+    "areaInteresses": ["Filmmaking", "Esportes Radicais"]
+  },
+  {
+    "id": 60,
+    "nome": "Jéssica Andrade",
+    "foto": "https://i.pravatar.cc/150?img=60",
+    "cargo": "Engenheira de Qualidade (QA) Sênior",
+    "resumo": "Líder de testes automatizados com Cypress e Playwright.",
+    "localizacao": "Recife/PE",
+    "area": "TI",
+    "habilidadesTecnicas": ["Cypress", "Playwright", "Testes de API", "CI/CD", "JavaScript"],
+    "softSkills": ["Liderança", "Mentoria", "Pensamento Crítico"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "CIn/UFPE",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["ISTQB Advanced Level"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Testes de Performance", "QAOps"]
   }
 ]

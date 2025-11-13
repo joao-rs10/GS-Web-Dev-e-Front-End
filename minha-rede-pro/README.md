@@ -23,6 +23,31 @@ O **TalentLink** é uma Single Page Application (SPA) que simula uma rede profis
 
 ---
 
+## 🛠️ Instalação e Execução do Projeto
+
+Siga os passos abaixo para executar o projeto localmente:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/joao-rs10/GS-Web-Dev-e-Front-End
+    ```
+
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd minha-rede-pro
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Execute o projeto (em modo de desenvolvimento):**
+    ```bash
+    npm run dev
+    ```
+    O servidor Vite será iniciado e o site estará acessível.
+
 ## 🔐 Usuários e Senhas
 
 **Não aplicável.**
